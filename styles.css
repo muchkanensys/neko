@@ -21,6 +21,8 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
+    filter: url('#squiggly-0'); /* 初期フィルターを設定 */
+    animation: squiggly-anim 0.3s linear infinite;
 }
 
 .kanban {
