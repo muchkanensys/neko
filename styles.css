@@ -12,7 +12,7 @@ body {
     height: 100vh;
     background-color: #222222;
     margin: 0;
-    font-family: 'Kouzan';
+    font-family: 'Kouzan', sans-serif;
     position: relative;
     overflow: hidden;
 }
@@ -33,11 +33,11 @@ body {
     box-sizing: border-box;
     writing-mode: vertical-rl;
     text-orientation: upright;
-    font-family: 'Kouzan';
+    font-family: 'Kouzan', sans-serif;
     position: absolute;
     overflow: hidden;
-    backdrop-filter: blur(2px);
-    filter: blur(1px);
+    backdrop-filter: blur(5px);
+    filter: url('#squiggly-0'); /* 初期フィルターを設定 */
     transform: translate(-50%, -50%) rotate(-1deg);
     animation: squiggly-anim 0.2s linear infinite;
     width: auto;
