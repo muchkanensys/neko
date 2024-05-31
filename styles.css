@@ -1,3 +1,13 @@
+@font-face {
+  font-family:'AoyagiKouzan';
+  src:url('AoyagiKouzanTOTF.woff') format('woff2');
+  font-display:swap;
+}
+
+* {
+font-family: 'AoyagiKouzan',serif;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -5,7 +15,7 @@ body {
     height: 100vh;
     background-color: #222222;
     margin: 0;
-    font-family: 'HG行書体', sans-serif;
+    font-family: 'AoyagiKouzan', sans-serif;
     position: relative;
     overflow: hidden;
 }
