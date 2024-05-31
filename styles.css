@@ -30,8 +30,8 @@ body {
     position: relative;
     overflow: hidden;
     backdrop-filter: blur(5px);
-    filter: blur(2px);
-    transform: rotate(-5deg);
+    filter: blur(1px);
+    transform: rotate(-1deg);
 }
 
 .kanban::before {
