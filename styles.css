@@ -42,7 +42,7 @@ body {
     transform: translate(-50%, -50%) rotate(-2deg);
     animation: squiggly-anim 0.3s linear infinite;
     width: auto;
-    height: auto;
+    height: 80%;
     max-width: 20%;
     max-height: 80%;
     top: 50%;
