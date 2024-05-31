@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap');
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #232323;
+    background-color: #232232;
     margin: 0;
-    font-family: 'Noto Serif JP', serif;
+    font-family: 'Amatic SC', sans-serif;
 }
 
 #kanban-container {
@@ -26,12 +28,13 @@ body {
     box-sizing: border-box;
     writing-mode: vertical-rl;
     text-orientation: upright;
-    font-family: 'Noto Serif JP', serif;
+    font-family: 'Amatic SC', sans-serif;
     position: relative;
     overflow: hidden;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(5px);
     filter: blur(1px);
     transform: rotate(-1deg);
+    animation: squiggly-anim 0.34s linear infinite;
 }
 
 .kanban::before {
@@ -53,4 +56,22 @@ body {
 .neko {
     writing-mode: horizontal-tb;
     display: inline-block;
+}
+
+@keyframes squiggly-anim {
+    0% {
+        filter: url('#squiggly-0');
+    }
+    25% {
+        filter: url('#squiggly-1');
+    }
+    50% {
+        filter: url('#squiggly-2');
+    }
+    75% {
+        filter: url('#squiggly-3');
+    }
+    100% {
+        filter: url('#squiggly-4');
+    }
 }
