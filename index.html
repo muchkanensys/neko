@@ -5,10 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>看板</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="kanban-container"></div>
     <script src="script.js"></script>
+    <svg width="0" height="0">
+        <defs>
+            <filter id="squiggly-0">
+                <feTurbulence baseFrequency="0.02" numOctaves="3" result="noise" seed="0"/>
+                <feDisplacementMap in="SourceGraphic" in2="noise" scale="3"/>
+            </filter>
+            <filter id="squiggly-1">
+                <feTurbulence baseFrequency="0.02" numOctaves="3" result="noise" seed="1"/>
+                <feDisplacementMap in="SourceGraphic" in2="noise" scale="3"/>
+            </filter>
+            <filter id="squiggly-2">
+                <feTurbulence baseFrequency="0.02" numOctaves="3" result="noise" seed="2"/>
+                <feDisplacementMap in="SourceGraphic" in2="noise" scale="3"/>
+            </filter>
+            <filter id="squiggly-3">
+                <feTurbulence baseFrequency="0.02" numOctaves="3" result="noise" seed="3"/>
+                <feDisplacementMap in="SourceGraphic" in2="noise" scale="3"/>
+            </filter>
+            <filter id="squiggly-4">
+                <feTurbulence baseFrequency="0.02" numOctaves="3" result="noise" seed="4"/>
+                <feDisplacementMap in="SourceGraphic" in2="noise" scale="3"/>
+            </filter>
+        </defs>
+    </svg>
 </body>
 </html>
