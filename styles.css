@@ -40,6 +40,9 @@ body {
     height: auto; /* 自動高さ */
     max-width: 20%; /* 最大幅を設定 */
     max-height: 80%; /* 最大高さを設定 */
+    top: 50%; /* 画面の縦中央 */
+    left: 50%; /* 画面の横中央 */
+    transform: translate(-50%, -50%) rotate(-1deg); /* 中央に配置し、回転 */
 }
 
 .kanban::before {
