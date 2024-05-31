@@ -59,7 +59,7 @@ body {
     background: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
     opacity: 0.2;
     pointer-events: none;
-    animation: noise-animation 0.5s infinite;
+
 }
 
 .highlight {
@@ -91,6 +91,7 @@ body {
 
 .flash {
     animation: flash 0.03s infinite;
+    animation: noise-animation 0.5s infinite;
 }
 
 @keyframes flash {
