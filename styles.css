@@ -64,6 +64,7 @@ body {
 
 .highlight {
     color: yellow;
+    font-size: 1.2em; /* 20%大きくする */
 }
 
 .neko {
