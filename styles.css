@@ -1,11 +1,8 @@
 @font-face {
-  font-family:'AoyagiKouzan';
-  src:url('https://muchkanensys.github.io/neko/AoyagiKouzanTOTF.woff') format('woff2');
-  font-display:swap;
-}
-
-* {
-font-family: 'AoyagiKouzan',serif;
+    font-family: 'Kouzan';
+    src: url('https://muchkanensys.github.io/neko/KouzanMouhituFontOTF.woff2') format('woff2'),
+         url('https://muchkanensys.github.io/neko/KouzanMouhituFontOTF.woff') format('woff2');
+    font-display: swap;
 }
 
 body {
@@ -15,10 +12,11 @@ body {
     height: 100vh;
     background-color: #222222;
     margin: 0;
-    font-family: 'AoyagiKouzan', sans-serif;
+    font-family: 'Kouzan', sans-serif;
     position: relative;
     overflow: hidden;
 }
+
 #kanban-container {
     position: absolute;
     width: 100%;
@@ -35,20 +33,19 @@ body {
     box-sizing: border-box;
     writing-mode: vertical-rl;
     text-orientation: upright;
-    font-family: 'ShowaKaisho', sans-serif;
+    font-family: 'Kouzan', sans-serif;
     position: absolute;
     overflow: hidden;
     backdrop-filter: blur(5px);
     filter: blur(1px);
-    transform: rotate(-1deg);
-    animation: squiggly-anim 0.3s linear infinite;
-    width: auto; /* 自動幅 */
-    height: auto; /* 自動高さ */
-    max-width: 20%; /* 最大幅を設定 */
-    max-height: 80%; /* 最大高さを設定 */
-    top: 50%; /* 画面の縦中央 */
-    left: 50%; /* 画面の横中央 */
-    transform: translate(-50%, -50%) rotate(-1deg); /* 中央に配置し、回転 */
+    transform: translate(-50%, -50%) rotate(-1deg);
+    animation: squiggly-anim 0.2s linear infinite;
+    width: auto;
+    height: auto;
+    max-width: 20%;
+    max-height: 80%;
+    top: 50%;
+    left: 50%;
 }
 
 .kanban::before {
