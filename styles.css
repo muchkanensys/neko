@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'KouzanMouhituFont';
+    font-family: 'KouzanMouhitu';
     src: url('https://muchkanensys.github.io/neko/KouzanMouhituFontOTF.otf') format('opentype');
 }
 body {
@@ -9,7 +9,7 @@ body {
     height: 100vh;
     background-color: #222222;
     margin: 0;
-    font-family: 'KouzanMouhituFont', sans-serif;
+    font-family: 'KouzanMouhitu', sans-serif;
     position: relative;
     overflow: hidden;
 }
