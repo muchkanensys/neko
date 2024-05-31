@@ -31,7 +31,7 @@ body {
     backdrop-filter: blur(5px);
     filter: blur(1px);
     transform: rotate(-1deg);
-    animation: squiggly-anim 0.2s linear infinite;
+    animation: squiggly-anim 0.3s linear infinite;
     width: auto; /* 自動幅 */
     height: auto; /* 自動高さ */
     max-width: 20%; /* 最大幅を設定 */
