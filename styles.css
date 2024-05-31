@@ -16,7 +16,7 @@ body {
     position: relative;
     overflow: hidden;
 }
-body::before {
+#kanban-container::before {
     content: '';
     position: absolute;
     top: 0;
