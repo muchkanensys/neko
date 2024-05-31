@@ -48,18 +48,10 @@ function createKanban(text) {
     kanban.innerHTML = highlightedText;
     return kanban;
 }
-
 function displayRandomKanban() {
     kanbanContainer.innerHTML = '';
     const randomIndex = Math.floor(Math.random() * texts.length);
     const kanban = createKanban(texts[randomIndex]);
-
-    // ランダムな位置を設定
-    const randomTop = Math.random() * (window.innerHeight - kanban.offsetHeight);
-    const randomLeft = Math.random() * (window.innerWidth - kanban.offsetWidth);
-    kanban.style.top = `${randomTop}px`;
-    kanban.style.left = `${randomLeft}px`;
-
     kanbanContainer.appendChild(kanban);
 }
 
