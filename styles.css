@@ -38,8 +38,8 @@ body {
     overflow: hidden;
     backdrop-filter: blur(2px);
     filter: url('#squiggly-0'); /* 初期フィルターを設定 */
-    transform: translate(-50%, -50%) rotate(-1deg);
-    animation: squiggly-anim 0.2s linear infinite;
+    transform: translate(-50%, -50%) rotate(-2deg);
+    animation: squiggly-anim 0.3s linear infinite;
     width: auto;
     height: auto;
     max-width: 20%;
