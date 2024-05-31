@@ -9,11 +9,10 @@ body {
     height: 100vh;
     background-color: #222222;
     margin: 0;
-    font-family: 'ShowaKaisho', sans-serif;
+    font-family: 'KouzanMouhituFont', sans-serif;
     position: relative;
     overflow: hidden;
 }
-
 #kanban-container {
     position: absolute;
 }
