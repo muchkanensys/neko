@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'KouzanMouhituFont';
-    src: url('KouzanMouhituFontOTF.otf') format('opentype');
+    src: url('https://muchkanensys.github.io/neko/KouzanMouhituFontOTF.otf') format('opentype');
 }
 body {
     display: flex;
