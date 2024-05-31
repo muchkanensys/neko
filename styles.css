@@ -1,20 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap');
-
+@font-face {
+    font-family: 'KouzanMouhituFont';
+    src: url('KouzanMouhituFontOTF.otf') format('opentype');
+}
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #232323;
+    background-color: #222222;
     margin: 0;
-    font-family: 'Noto Serif JP', serif;
+    font-family: 'ShowaKaisho', sans-serif;
+    position: relative;
+    overflow: hidden;
 }
 
 #kanban-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    max-width: 1200px;
+    position: absolute;
 }
 
 .kanban {
@@ -24,12 +25,11 @@ body {
     font-size: 1.5em;
     text-align: center;
     border: 2px solid white;
-    flex: 1 1 calc(33.333% - 20px);
     box-sizing: border-box;
     writing-mode: vertical-rl;
     text-orientation: upright;
-    font-family: 'Amatic SC', sans-serif;
-    position: relative;
+    font-family: 'ShowaKaisho', sans-serif;
+    position: absolute;
     overflow: hidden;
     backdrop-filter: blur(5px);
     filter: blur(1px);
@@ -87,4 +87,5 @@ body {
     100% {
         opacity: 0.8;
     }
+}
 }
