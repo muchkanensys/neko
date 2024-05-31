@@ -69,6 +69,7 @@ body {
 .neko {
     writing-mode: horizontal-tb;
     display: inline-block;
+    animation: noise-animation 0.5s infinite;
 }
 
 @keyframes squiggly-anim {
@@ -91,7 +92,6 @@ body {
 
 .flash {
     animation: flash 0.03s infinite;
-    animation: noise-animation 0.5s infinite;
 }
 
 @keyframes flash {
