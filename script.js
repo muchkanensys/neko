@@ -30,10 +30,9 @@ const highlightKeywords = [
     "和解", "さばき", "導く", "偉大", "悔い改め", "見守る", "裁き", "救済", "怒り", "癒し","理解",
     "永遠", "存在", "御子", "御手", "御心", "御業", "御言葉", "御計画", "御霊", "恵み", "祝福","御声","者","守護","全て","守り","罪","道"
 ];
-
 function createKanban(text) {
     const kanban = document.createElement('div');
-    kanban.className = 'kanban flash';
+    kanban.className = 'kanban';
 
     // 特定のキーワードを強調
     let highlightedText = text;
@@ -48,6 +47,7 @@ function createKanban(text) {
     kanban.innerHTML = highlightedText;
     return kanban;
 }
+
 function displayRandomKanban() {
     kanbanContainer.innerHTML = '';
     const randomIndex = Math.floor(Math.random() * texts.length);
