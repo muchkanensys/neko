@@ -60,4 +60,4 @@ function displayRandomKanban() {
 displayRandomKanban();
 
 // 1秒ごとにランダムに切り替え
-setInterval(displayRandomKanban, 1000);
+setInterval(displayRandomKanban, 3000);
